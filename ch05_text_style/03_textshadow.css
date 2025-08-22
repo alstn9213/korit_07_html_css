@@ -1,0 +1,28 @@
+/* p {
+  text-shadow: 1px 1px white;
+  text-shadow: -1px 0 white;
+} */
+
+/*  2번 라인은 무시되고 3번라인의 text-shadow값이 적용된다. 그렇다고 그림자 속성을 중첩적으로 넣는 것이 불가능하지는 않고 속성 값에 ','가 들어간다.*/
+
+p {
+  text-shadow: 
+    1px 1px white, 
+    -1px 0 white, 
+    0 1px white, 
+    0 -1px white,
+    1px 1px white,
+    1px -1px white,
+    -1px 1px white,
+    -1px -1px white,
+
+    2px 0 plum,
+    -2px 0 plum,
+    0 2px  plum,
+    0 -2px plum,
+
+    2px 1px plum,
+    -2px 1px plum,
+    1px 2px plum,
+    1px -2px 10px red;
+}
