@@ -1,0 +1,9 @@
+/* ul > li:not(:nth-child(5)) */
+ul > li:not(:last-child) { 
+  border-bottom: 1px solid black; 
+}
+
+/* ul > li:not(:first-child) {
+  border-top: 1px solid black; 
+
+} */

@@ -1,0 +1,26 @@
+ul {
+  /* list-style: disc; default 값 
+  가능한 속성 값
+  disc / circle / square /
+  "- "(사용자 정의 기호)  */
+  list-style: "⭐";
+}
+
+ul > li:first-child {
+  list-style: "😋";
+}
+
+ol {
+  /* 1, 2, 3 : decimal
+  a, b , c : lower-alpha 
+  A, B , C : lower-alpha 
+  i, ii, iii : lower-roman
+  I, II, III : upper-roman
+  알파, 베타, 감마 : lower-greek
+  */
+  list-style: lower-greek;
+}
+
+ol > li:last-child {
+  list-style: lower-alpha;
+}
