@@ -1,0 +1,32 @@
+body {
+  font: 1.2em sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+@media (width >= 500px) {
+  .media {
+    display: grid;
+    grid-template-columns: fit-content(200px) 1fr;
+  }
+
+
+.img {
+  grid-area: image;
+}
+
+.content {
+  grid-area: content;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+}
